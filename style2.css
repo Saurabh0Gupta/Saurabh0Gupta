@@ -1,0 +1,108 @@
+
+@media (max-width:600px) {
+    body{
+        overflow-x: hidden;
+    }
+    .box{
+        /* background-color: lightblue; */
+    }
+    #header .box h1{
+       text-align: center;
+       letter-spacing: .2vw;
+    }
+    #header nav ul li{
+        display: none;
+    }
+    #home{
+        /* padding: 20px; */
+        display: block;
+    }
+    #home #left .home-cont h1{
+        font-size: 30px;
+    }
+    #home #left .home-cont .text h3{
+        font-size: 1px;
+    }
+    #home #left .home-cont{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    #right{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #right img{
+        width: 30vmax;
+    }
+    #contact{
+        display: block;
+    }
+    /* .swiper{
+        width: 100vw;
+    }
+    .swiper-slide{
+        width: 100vw;
+    } */
+    .row{
+        display: block;
+        align-items: center;
+        justify-content: center;
+    }
+    #left-row{
+        display: none;
+    }
+    #right-row{
+        width: 100%;
+    }
+
+    .my-skill-icon{
+         width: 7vh;
+        height: 14vw; 
+        border-radius: 0%;
+    }
+    .my-skill-icon img{
+        margin: 3px;
+    }
+    #center{
+        position: relative;
+    }
+    #inner-center{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 2vmax;
+    }
+    .in-cen{
+        margin-bottom: 1.6vmax;
+    }
+    #text{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 0px ;
+    }
+    #contact{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        /* padding: 10px; */
+    }
+    #contact h3{
+        padding-left: 30px;
+    }
+    #contact-left{
+        width: 100vw;
+    }
+    #contact-right{
+        width: 100vw;
+    }
+    #form input,textarea{
+        width: 80%;
+    }
+    
+}
